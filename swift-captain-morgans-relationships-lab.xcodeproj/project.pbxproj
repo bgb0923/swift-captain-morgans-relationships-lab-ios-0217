@@ -11,6 +11,11 @@
 		4C45CA8F1D3A9A7F0030A41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA8D1D3A9A7F0030A41D /* Main.storyboard */; };
 		4C45CA941D3A9A7F0030A41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA931D3A9A7F0030A41D /* Assets.xcassets */; };
 		4C45CA971D3A9A7F0030A41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA951D3A9A7F0030A41D /* LaunchScreen.storyboard */; };
+		5617B4871E7C55C100FCEF3A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5617B4851E7C55C100FCEF3A /* DataModel.xcdatamodeld */; };
+		5617B4891E7C56CF00FCEF3A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B4881E7C56CF00FCEF3A /* DataStore.swift */; };
+		5617B4AC1E7C5CCF00FCEF3A /* PiratesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B4AB1E7C5CCF00FCEF3A /* PiratesTableViewController.swift */; };
+		5617B4AE1E7C6BF900FCEF3A /* ShipsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B4AD1E7C6BF900FCEF3A /* ShipsTableViewController.swift */; };
+		5624BFAE1E7C95F30090FD98 /* ShipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624BFAD1E7C95F30090FD98 /* ShipDetailViewController.swift */; };
 		8FD08F351E1EAF5D005FF50B /* swift_captain_morgans_relationships_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD08F341E1EAF5D005FF50B /* swift_captain_morgans_relationships_labTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,11 @@
 		4C45CA931D3A9A7F0030A41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C45CA961D3A9A7F0030A41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C45CA981D3A9A7F0030A41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5617B4861E7C55C100FCEF3A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		5617B4881E7C56CF00FCEF3A /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		5617B4AB1E7C5CCF00FCEF3A /* PiratesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiratesTableViewController.swift; sourceTree = "<group>"; };
+		5617B4AD1E7C6BF900FCEF3A /* ShipsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipsTableViewController.swift; sourceTree = "<group>"; };
+		5624BFAD1E7C95F30090FD98 /* ShipDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipDetailViewController.swift; sourceTree = "<group>"; };
 		8FD08F321E1EAF5D005FF50B /* swift-captain-morgans-relationships-labTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-captain-morgans-relationships-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD08F341E1EAF5D005FF50B /* swift_captain_morgans_relationships_labTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_captain_morgans_relationships_labTests.swift; sourceTree = "<group>"; };
 		8FD08F361E1EAF5D005FF50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +70,7 @@
 				4C45CA931D3A9A7F0030A41D /* Assets.xcassets */,
 				4C45CA951D3A9A7F0030A41D /* LaunchScreen.storyboard */,
 				4C45CA981D3A9A7F0030A41D /* Info.plist */,
+				5624BFAD1E7C95F30090FD98 /* ShipDetailViewController.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -88,6 +99,10 @@
 				4C45CA891D3A9A7F0030A41D /* AppDelegate.swift */,
 				4C45CA8D1D3A9A7F0030A41D /* Main.storyboard */,
 				1B885D9D1D3FE64B0029DFFC /* Resources */,
+				5617B4851E7C55C100FCEF3A /* DataModel.xcdatamodeld */,
+				5617B4881E7C56CF00FCEF3A /* DataStore.swift */,
+				5617B4AB1E7C5CCF00FCEF3A /* PiratesTableViewController.swift */,
+				5617B4AD1E7C6BF900FCEF3A /* ShipsTableViewController.swift */,
 			);
 			path = "swift-captain-morgans-relationships-lab";
 			sourceTree = "<group>";
@@ -210,7 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5617B4AC1E7C5CCF00FCEF3A /* PiratesTableViewController.swift in Sources */,
+				5617B4AE1E7C6BF900FCEF3A /* ShipsTableViewController.swift in Sources */,
 				4C45CA8A1D3A9A7F0030A41D /* AppDelegate.swift in Sources */,
+				5624BFAE1E7C95F30090FD98 /* ShipDetailViewController.swift in Sources */,
+				5617B4891E7C56CF00FCEF3A /* DataStore.swift in Sources */,
+				5617B4871E7C55C100FCEF3A /* DataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,8 +447,22 @@
 				8FD08F3A1E1EAF5D005FF50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5617B4851E7C55C100FCEF3A /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5617B4861E7C55C100FCEF3A /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 5617B4861E7C55C100FCEF3A /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4C45CA7E1D3A9A7F0030A41D /* Project object */;
 }

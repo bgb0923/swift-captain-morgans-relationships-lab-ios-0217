@@ -69,15 +69,9 @@ class swift_captain_morgans_relationships_labTests: XCTestCase {
                 
                 XCTAssertTrue(ship.engine != nil)
             }
-            
-            
         }
         
     }
-
-    
-    
-    
 }
 
 
